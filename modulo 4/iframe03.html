@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação no iframe</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        iframe#tela {
+            width: 90vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quis necessitatibus at nesciunt ducimus quisquam, dolorum adipisci sit accusantium eaque enim officiis natus, sunt impedit delectus similique. Fuga, fugit possimus?</p>
+    <ul>
+        <li><a href="indexyoga.html" target="frame">Primeira página</a><br></li>
+        <li><a href="indexdroid.html" target="frame">Segunda página</a><br></li>
+        <li><a href="iframe01.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quidem libero architecto nulla vero quos a, soluta ipsa odit rem? Laborum exercitationem temporibus autem commodi tempora quis eos assumenda ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem quibusdam voluptatem non repellat eligendi libero provident assumenda! Ullam autem, maxime velit exercitationem nobis repudiandae, molestiae corrupti, delectus debitis sit officiis.</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <img src='fotoyoga.jpg'>"></iframe>
+    
+</body>
+</html>
